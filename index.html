@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <header>
+        <nav class="topMenu">
+            <div class="pageName">DojoWeather</div>
+            <div class="pageCities">
+                <h1>Burbank</h1>
+                <h1>Chicago</h1>
+                <h1>Dallas</h1>
+            </div>
+        </nav>
+    </header>
+    <main class="mainBox">
+        <main class="main">
+            <nav class="weatherOptions">
+                <h1>San José</h1>
+                <div>
+                    <h2>show temperature in</h2>
+                    <select name="temp" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option> 
+                    </select>
+                </div>
+            </nav>
+            <section>
+                <div class="weekForCast">
+                    <lu class="box">
+                        <li class="day">Today</li>
+                        <li><img src="./style/assets/some_rain.png" alt="Rainy Clouds"></li>
+                        <li class="someSentence">some rain</li>
+                        <li class="tempNum">
+                            <h3 class="red"><span id="tempNumber1">24</span>°</h3>
+                            <h3 class="blue"><span id="tempNumber2">18</span>°</h3>
+                        </li>
+                    </lu>
+                    <lu class="box">
+                        <li class="day">Tomorrow</li>
+                        <li><img src="./style/assets/some_sun.png" alt="Rainy Clouds"></li>
+                        <li class="someSentence">some sun</li>
+                        <li class="tempNum">
+                            <h3 class="red"><span id="tempNumber3">27</span>°</h3>
+                            <h3 class="blue"><span id="tempNumber4">19</span>°</h3>
+                        </li>
+                    </lu>
+                    <lu class="box">
+                        <li class="day">Friday</li>
+                        <li><img src="./style/assets/some_clouds.png" alt="Rainy Clouds"></li>
+                        <li class="someSentence">some clouds</li>
+                        <li class="tempNum">
+                            <h3 class="red"><span id="tempNumber5">21</span>°</h3>
+                            <h3 class="blue"><span id="tempNumber6">16</span>°</h3>
+                        </li>
+                    </lu>
+                    <lu class="box">
+                        <li class="day">Saturday</li>
+                        <li><img src="./style/assets/some_sun.png" alt="Rainy Clouds"></li>
+                        <li class="someSentence">some sun</li>
+                        <li class="tempNum">
+                            <h3 class="red"><span id="tempNumber7">26</span>°</h3>
+                            <h3 class="blue"><span id="tempNumber8">21</span>°</h3>
+                        </li>
+                    </lu>
+                </div>
+            </main>
+
+    </main>
+        </section>
+        <fieldset class="popUp">
+            <div class="cookies">
+                <div><img src="./style/assets/cookie.png" alt="Cookie Vector"></div>
+                <div class="popUpText">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
+                </div>
+                <button onclick="removePopUp()" class="accept"  >I Accept</button>
+            </div>
+        </fieldset>
+        <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topMenu{
+    background-color:lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.pageCities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pageCities > h1{
+    margin: 0;
+    padding: 25px 20px 5px 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+
+.pageCities > h1:hover{
+    cursor: pointer;
+    background-color: rgb(61, 176, 248);
+    color: white;
+}
+
+.pageName{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.main{
+    margin: 150px 0px 0px 0px;
+    width: 1200px;
+}
+
+.weatherOptions{
+    border-bottom: 2px solid rgb(0, 15, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.weatherOptions > div{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.weatherOptions > div >h2{
+    padding-right: 15px;
+    font-weight: lighter;
+}
+
+li > img{
+    border-radius: 100px;
+    width: 125px;
+    padding: 20px;
+}
+
+.weekForCast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px 0px 25px 0px;
+}
+
+.box{
+    background-color: rgb(214, 218, 219);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+    width: 500px;
+}
+
+div > li, .day, .someSentence{
+    padding: 20px;
+}
+
+.day{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.tempNum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 120px;
+    font-size: 20px;
+
+}
+
+.red{
+    color:rgb(228, 55, 25);
+}
+
+.blue{
+    color: dodgerblue;
+}
+
+.someSentence{
+    font-weight: 550;
+    width: 120px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.popUp{
+    padding: 0;
+    width: 1200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 218, 219);
+    border: 2px solid black;
+    position: fixed;
+    bottom: 20px;
+    right: 360px;
+}
+
+.cookies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.cookies > div >img{
+    width: 150px;
+    padding: 15px;
+}
+
+.accept{
+    margin: 60px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 98, 209);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.accept:hover{
+    cursor: pointer;
+    background-color: rgb(61, 176, 248);
+    color: white;
+}
+
+.popUpText > h4{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+
